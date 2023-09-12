@@ -73,11 +73,12 @@ cur.execute('''CREATE TABLE IF NOT EXISTS card_data
 if selected == "Home":
     col1 , col2 = st.columns(2)
     with col1:
-        st.image(Image.open("C:\\Users\\PRANESH\\Downloads\\Bizcard_Image.png"),width=500)
-        st.markdown("## :green[**Technologies Used :**] Python,easy OCR, Streamlit, SQL, Pandas")
+       st.image(Image.open("C:\\Users\\PRANESH\\Downloads\\Bizcard_Image.png"),width=500)
     with col2:
-       st.write("## :green[**About :**] Bizcard is a Python application designed to extract information from business cards.")
-       st.write('## The main purpose of Bizcard is to automate the process of extracting key details from business card images, such as the name, designation, company, contact information, and other relevant data. By leveraging the power of OCR (Optical Character Recognition) provided by EasyOCR, Bizcard is able to extract text from the images.')
+       st.image(Image.open("C:\\Users\\PRANESH\\Downloads\\com.abbyy.mobile.bcr.lite-featured.webp"),width=600)
+    st.markdown("## :green[**Technologies Used :**] Python,easy OCR, Streamlit, SQL, Pandas")
+    st.write("## :green[**About :**] Bizcard is a Python application designed to extract information from business cards.")
+    st.write('## The main purpose of Bizcard is to automate the process of extracting key details from business card images, such as the name, designation, company, contact information, and other relevant data. By leveraging the power of OCR (Optical Character Recognition) provided by EasyOCR, Bizcard is able to extract text from the images.')
 
 # UPLOAD AND EXTRACT MENU
 
